@@ -1,1 +1,6 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 344" role="img" aria-labelledby="title"><title id="title">Alloy &amp; Ether standalone AE mark</title><path d="M0 344 210 0 374 282 Q394 309 437 309 H640" fill="none" stroke="#0F1F24" stroke-width="12" stroke-linejoin="round" stroke-linecap="butt"/><path d="M351 0 H640" fill="none" stroke="#0F1F24" stroke-width="12" stroke-linecap="butt"/><path d="M151 168 C192 204 231 213 286 184 C339 156 391 153 453 184 C407 150 354 137 293 165 C236 191 194 202 151 168Z" fill="#0E9F99"/></svg>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 344" role="img" aria-labelledby="title">
+<title id="title">Alloy &amp; Ether original AE symbol</title>
+<path d="M0 344 210 0 374 282 Q394 309 437 309 H640" fill="none" stroke="#0F1F24" stroke-width="58" stroke-linejoin="round" stroke-linecap="butt"/>
+<path d="M351 0 H640" fill="none" stroke="#0F1F24" stroke-width="58" stroke-linecap="butt"/>
+<path d="M151 168 C192 204 231 213 286 184 C339 156 391 153 453 184 C407 150 354 137 293 165 C236 191 194 202 151 168Z" fill="#0E9F99"/>
+</svg>
