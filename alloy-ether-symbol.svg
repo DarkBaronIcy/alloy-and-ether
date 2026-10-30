@@ -1,6 +1,26 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 735 400" role="img" aria-labelledby="title">
-  <title id="title">Alloy &amp; Ether AE symbol</title>
-  <path fill="#0F1F24" d="M0 395 234 5 467 365C485 390 512 395 544 395H728V352H544C528 352 514 346 502 328L234 91 52 395Z"/>
-  <path fill="#0F1F24" d="M482 6H719V50H482Z"/>
-  <path fill="#0E9F99" d="M198 180C270 230 329 190 399 166C482 137 557 151 631 218C566 182 520 188 449 219C356 259 262 273 198 180Z"/>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 520" role="img" aria-labelledby="title">
+<title id="title">Alloy and Ether AE symbol</title>
+<defs>
+  <linearGradient id="ribbon" x1="360" y1="245" x2="790" y2="315" gradientUnits="userSpaceOnUse">
+    <stop offset="0" stop-color="#0E9F99"/>
+    <stop offset=".52" stop-color="#17B7B0"/>
+    <stop offset="1" stop-color="#0E7776"/>
+  </linearGradient>
+</defs>
+<!-- Charcoal AE monogram: continuous A-to-E stroke and detached E bar -->
+<path d="M105 425 L345 78 L585 425
+         C610 463 646 480 696 480
+         L875 480"
+      fill="none" stroke="#0F1F24" stroke-width="54"
+      stroke-linecap="butt" stroke-linejoin="round"/>
+<path d="M585 78 H820" fill="none" stroke="#0F1F24" stroke-width="54" stroke-linecap="butt"/>
+<!-- Flowing teal ribbon crosses the A in front, with a restrained tapered finish -->
+<path d="M300 255
+         C355 286 403 286 462 268
+         C530 247 594 207 665 207
+         C731 207 782 234 824 274
+         C773 253 730 251 681 266
+         C610 288 549 329 478 330
+         C406 331 344 302 300 255 Z"
+      fill="url(#ribbon)"/>
 </svg>

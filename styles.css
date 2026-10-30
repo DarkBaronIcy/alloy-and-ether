@@ -116,5 +116,5 @@
   clip-path:none;
 }
 .hero-art .art-core img{
-  filter:drop-shadow(0 0 2px #F7F1E7);
+  filter:none;
 }
