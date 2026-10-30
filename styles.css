@@ -107,36 +107,39 @@
 .hero-art .orbit-three{animation:ae-orbit-three 58s linear infinite}
 
 
-/* Selected work: compact teal external-link control */
-.project-image .image-arrow{
-  width:64px;
-  height:64px;
-  right:20px;
-  bottom:20px;
-  display:grid;
-  place-items:center;
-  background:#0E9F99;
-  color:#0F1F24;
-  z-index:2;
-}
-.project-image .image-arrow svg{
-  display:block;
-  width:20px;
-  height:20px;
+/* Alloy & Ether signature arrow: curved shaft and tapered up-right head */
+.ae-arrow-icon{
+  display:inline-block;
+  width:1em;
+  height:1em;
+  vertical-align:-.16em;
   overflow:visible;
-}
-.project-image .image-arrow svg path{
   fill:none;
   stroke:currentColor;
   stroke-width:1.8;
-  stroke-linecap:square;
-  stroke-linejoin:miter;
+  stroke-linecap:round;
+  stroke-linejoin:round;
+}
+.project-image .image-arrow{
+  width:48px;
+  height:48px;
+  right:18px;
+  bottom:18px;
+  display:grid;
+  place-items:center;
+  background:#F7F1E7;
+  color:#0F1F24;
+  z-index:2;
+}
+.project-image .image-arrow .ae-arrow-icon{
+  width:20px;
+  height:20px;
 }
 @media(max-width:800px){
-  .project-image .image-arrow{width:54px;height:54px;right:16px;bottom:16px}
-  .project-image .image-arrow svg{width:18px;height:18px}
+  .project-image .image-arrow{width:42px;height:42px;right:15px;bottom:15px}
+  .project-image .image-arrow .ae-arrow-icon{width:18px;height:18px}
 }
 @media(max-width:540px){
-  .project-image .image-arrow{width:48px;height:48px;right:13px;bottom:13px}
-  .project-image .image-arrow svg{width:16px;height:16px}
+  .project-image .image-arrow{width:36px;height:36px;right:12px;bottom:12px}
+  .project-image .image-arrow .ae-arrow-icon{width:16px;height:16px}
 }
