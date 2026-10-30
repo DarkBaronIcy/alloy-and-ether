@@ -105,3 +105,27 @@
 .hero-art .orbit-one{animation:ae-orbit-one 34s linear infinite}
 .hero-art .orbit-two{animation:ae-orbit-two 43s linear infinite}
 .hero-art .orbit-three{animation:ae-orbit-three 58s linear infinite}
+
+
+/* Selected work: restore the larger teal square external-link control from the earlier preview */
+.project-image .image-arrow{
+  width:112px;
+  height:112px;
+  right:22px;
+  bottom:22px;
+  display:grid;
+  place-items:center;
+  background:#0E9F99;
+  color:#0F1F24;
+  font-family:Arial,sans-serif;
+  font-size:36px;
+  font-weight:400;
+  line-height:1;
+  z-index:2;
+}
+@media(max-width:800px){
+  .project-image .image-arrow{width:76px;height:76px;right:16px;bottom:16px;font-size:29px}
+}
+@media(max-width:540px){
+  .project-image .image-arrow{width:64px;height:64px;right:13px;bottom:13px;font-size:26px}
+}
