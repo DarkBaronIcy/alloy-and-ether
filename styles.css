@@ -73,3 +73,9 @@
 .footer-wordmark .brand-logo{width:185px;max-width:100%}
 .manifesto-logo{width:205px;max-width:100%;mix-blend-mode:normal}
 @media(max-width:540px){.site-header .brand-logo{width:190px;max-width:48vw}}
+
+/* Wordmark tile treatment: clean ivory rectangle on both light and dark surfaces */
+.site-header .brand-logo,.site-footer .footer-wordmark .brand-logo{background:#F7F1E7;padding:8px 12px;border-radius:0;box-sizing:content-box;object-fit:contain}
+.site-header .brand-logo{width:230px;max-width:42vw}
+.site-footer .footer-wordmark .brand-logo{width:155px;max-width:100%;padding:7px 10px}
+@media(max-width:540px){.site-header .brand-logo{width:175px;max-width:48vw;padding:6px 9px}.site-footer .footer-wordmark .brand-logo{width:135px;padding:6px 8px}}
