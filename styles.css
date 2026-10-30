@@ -109,9 +109,10 @@
 /* Tight warm-ivory backing for the supplied Strategy 001 AE mark */
 .hero-art .art-core{
   background:#F7F1E7;
-  padding:8px 10px;
+  padding:6px;
   border:0;
   border-radius:0;
   box-shadow:none;
   box-sizing:border-box;
+  clip-path:inset(4% 2.5%);
 }
