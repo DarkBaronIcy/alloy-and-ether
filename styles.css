@@ -107,40 +107,22 @@
 .hero-art .orbit-three{animation:ae-orbit-three 58s linear infinite}
 
 
-/* Selected work: restore the larger teal square external-link control from the earlier preview */
+/* Selected work: compact teal external-link control */
 .project-image .image-arrow{
-  width:112px;
-  height:112px;
-  right:22px;
-  bottom:22px;
+  width:64px;
+  height:64px;
+  right:20px;
+  bottom:20px;
   display:grid;
   place-items:center;
   background:#0E9F99;
   color:#0F1F24;
-  font-family:Arial,sans-serif;
-  font-size:36px;
-  font-weight:400;
-  line-height:1;
   z-index:2;
-}
-@media(max-width:800px){
-  .project-image .image-arrow{width:76px;height:76px;right:16px;bottom:16px;font-size:29px}
-}
-@media(max-width:540px){
-  .project-image .image-arrow{width:64px;height:64px;right:13px;bottom:13px;font-size:26px}
-}
-
-
-/* Selected work external-link arrow: use a precise, light-stroke diagonal glyph */
-.project-image .image-arrow{
-  display:grid;
-  place-items:center;
-  color:#0F1F24;
 }
 .project-image .image-arrow svg{
   display:block;
-  width:34px;
-  height:34px;
+  width:20px;
+  height:20px;
   overflow:visible;
 }
 .project-image .image-arrow svg path{
@@ -151,8 +133,10 @@
   stroke-linejoin:miter;
 }
 @media(max-width:800px){
-  .project-image .image-arrow svg{width:29px;height:29px}
+  .project-image .image-arrow{width:54px;height:54px;right:16px;bottom:16px}
+  .project-image .image-arrow svg{width:18px;height:18px}
 }
 @media(max-width:540px){
-  .project-image .image-arrow svg{width:25px;height:25px}
+  .project-image .image-arrow{width:48px;height:48px;right:13px;bottom:13px}
+  .project-image .image-arrow svg{width:16px;height:16px}
 }
