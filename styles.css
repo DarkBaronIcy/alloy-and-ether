@@ -65,3 +65,11 @@
 .footer-wordmark .brand-logo{width:170px;max-width:100%}
 .manifesto-logo{width:190px;max-width:100%;height:auto;mix-blend-mode:normal}
 @media(max-width:540px){.brand-logo{width:180px;max-width:48vw}.footer-wordmark .brand-logo{width:145px}}
+
+/* Brand guide correction: charcoal, teal and ivory */
+:root{--ink:#0F1F24;--teal:#0E9F99;--line:rgba(15,31,36,.18)}
+.brand-logo{display:block;background:transparent;padding:0;object-fit:contain}
+.site-header .brand-logo{width:250px;max-width:42vw}
+.footer-wordmark .brand-logo{width:185px;max-width:100%}
+.manifesto-logo{width:205px;max-width:100%;mix-blend-mode:normal}
+@media(max-width:540px){.site-header .brand-logo{width:190px;max-width:48vw}}
