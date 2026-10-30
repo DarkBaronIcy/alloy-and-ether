@@ -79,3 +79,7 @@
 .site-header .brand-logo{width:230px;max-width:42vw}
 .site-footer .footer-wordmark .brand-logo{width:155px;max-width:100%;padding:7px 10px}
 @media(max-width:540px){.site-header .brand-logo{width:175px;max-width:48vw;padding:6px 9px}.site-footer .footer-wordmark .brand-logo{width:135px;padding:6px 8px}}
+
+/* Give the manifesto wordmark the same clean ivory backing used elsewhere */
+.manifesto-logo{background:#F7F1E7;padding:8px 12px;box-sizing:content-box;mix-blend-mode:normal;object-fit:contain}
+@media(max-width:800px){.manifesto-logo{padding:7px 10px}}
