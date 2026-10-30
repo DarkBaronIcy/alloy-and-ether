@@ -1,8 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 220" role="img" aria-labelledby="title">
-<title id="title">Alloy &amp; Ether original AE symbol</title>
-<g fill="none" stroke="#0F1F24" stroke-width="15" stroke-linecap="butt" stroke-linejoin="round">
-  <path d="M40 180 132 10 207 151Q217 181 250 181H355"/>
-  <path d="M171 12H292"/>
-</g>
-<path d="M115 102C144 128 174 132 213 112c37-20 67-19 103-1-29-21-62-24-101-8-40 17-70 20-100-1Z" fill="#0E9F99"/>
+<title id="title">Alloy &amp; Ether AE symbol</title>
+<path d="M48 183 132 22 211 158Q220 181 249 181H352" fill="none" stroke="#0F1F24" stroke-width="12" stroke-linecap="butt" stroke-linejoin="round"/>
+<path d="M219 22H294" fill="none" stroke="#0F1F24" stroke-width="12" stroke-linecap="butt"/>
+<path d="M115 108C145 132 176 135 213 117c36-18 67-18 101-2-28-19-61-22-99-7-39 16-69 18-100 0Z" fill="#0E9F99"/>
 </svg>
