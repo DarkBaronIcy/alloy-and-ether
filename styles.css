@@ -129,3 +129,30 @@
 @media(max-width:540px){
   .project-image .image-arrow{width:64px;height:64px;right:13px;bottom:13px;font-size:26px}
 }
+
+
+/* Selected work external-link arrow: use a precise, light-stroke diagonal glyph */
+.project-image .image-arrow{
+  display:grid;
+  place-items:center;
+  color:#0F1F24;
+}
+.project-image .image-arrow svg{
+  display:block;
+  width:34px;
+  height:34px;
+  overflow:visible;
+}
+.project-image .image-arrow svg path{
+  fill:none;
+  stroke:currentColor;
+  stroke-width:1.8;
+  stroke-linecap:square;
+  stroke-linejoin:miter;
+}
+@media(max-width:800px){
+  .project-image .image-arrow svg{width:29px;height:29px}
+}
+@media(max-width:540px){
+  .project-image .image-arrow svg{width:25px;height:25px}
+}
