@@ -58,3 +58,10 @@
 #approach.approach-section{padding-top:80px}
 #contact.contact-section{padding-top:65px}
 @media(max-width:800px){.home-links{padding-top:65px;padding-bottom:70px}.home-link-grid{grid-template-columns:1fr}.home-link-grid>a{min-height:175px}.home-link-grid h2{margin-top:22px}.page-intro{padding-top:55px;padding-bottom:45px}.page-intro h1{font-size:clamp(44px,10vw,70px)}}
+
+
+/* Original Alloy & Ether identity restoration */
+.brand-logo{background:transparent;padding:0;width:210px;max-width:42vw;height:auto}
+.footer-wordmark .brand-logo{width:170px;max-width:100%}
+.manifesto-logo{width:190px;max-width:100%;height:auto;mix-blend-mode:normal}
+@media(max-width:540px){.brand-logo{width:180px;max-width:48vw}.footer-wordmark .brand-logo{width:145px}}
