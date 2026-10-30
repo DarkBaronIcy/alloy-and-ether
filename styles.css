@@ -106,13 +106,15 @@
 .hero-art .orbit-two{animation:ae-orbit-two 43s linear infinite}
 .hero-art .orbit-three{animation:ae-orbit-three 58s linear infinite}
 
-/* Tight warm-ivory backing for the supplied Strategy 001 AE mark */
+/* Tight ivory edge behind the transparent AE silhouette; no rectangular image panel */
 .hero-art .art-core{
-  background:#F7F1E7;
-  padding:6px;
+  background:transparent;
+  padding:0;
   border:0;
   border-radius:0;
   box-shadow:none;
-  box-sizing:border-box;
-  clip-path:inset(4% 2.5%);
+  clip-path:none;
+}
+.hero-art .art-core img{
+  filter:drop-shadow(0 0 2px #F7F1E7);
 }
