@@ -105,16 +105,3 @@
 .hero-art .orbit-one{animation:ae-orbit-one 34s linear infinite}
 .hero-art .orbit-two{animation:ae-orbit-two 43s linear infinite}
 .hero-art .orbit-three{animation:ae-orbit-three 58s linear infinite}
-
-/* Tight ivory edge behind the transparent AE silhouette; no rectangular image panel */
-.hero-art .art-core{
-  background:transparent;
-  padding:0;
-  border:0;
-  border-radius:0;
-  box-shadow:none;
-  clip-path:none;
-}
-.hero-art .art-core img{
-  filter:none;
-}
